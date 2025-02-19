@@ -5,7 +5,7 @@
 void setup() {
   Serial.begin(115200);
   motorsetup();
-  Serial.print("RRSI: ");
+  Serial.print("Hello: ");
   
   pinMode(Shoot_Pin, OUTPUT);
   digitalWrite(Shoot_Pin, 1);
